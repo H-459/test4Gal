@@ -91,40 +91,7 @@
         <artifactId>aws-java-sdk-elasticloadbalancingv2</artifactId>
         <version>${aws.sdk.version}</version>
       </dependency>
-      
-      
-
-
-
-
-      <dependency>
-        <groupId>com.google.api-client</groupId>
-        <artifactId>google-api-client</artifactId>
-        <version>${dep.google.clients.version}</version>
-        <exclusions>
-          <exclusion>
-            <groupId>com.google.guava</groupId>
-            <artifactId>guava-jdk5</artifactId>
-          </exclusion>
-          <exclusion>
-            <groupId>com.google.guava</groupId>
-            <artifactId>guava</artifactId>
-          </exclusion>
-        </exclusions>
-      </dependency>
-
-      <dependency>
-        <groupId>com.google.apis</groupId>
-        <artifactId>google-api-services-compute</artifactId>
-        <version>v1-rev214-${dep.google.clients.version}</version>
-        <exclusions>
-          <exclusion>
-            <groupId>com.google.guava</groupId>
-            <artifactId>guava</artifactId>
-          </exclusion>
-        </exclusions>
-      </dependency>
-
+     
       <dependency>
         <groupId>com.google.code.findbugs</groupId>
         <artifactId>jsr305</artifactId>
