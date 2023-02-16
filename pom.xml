@@ -196,7 +196,7 @@
       <dependency>
         <groupId>com.flipkart.zjsonpatch</groupId>
         <artifactId>zjsonpatch</artifactId>
-        <version>0.4.9</version>
+        <version>0.4.14</version>
       </dependency>
 
       <!-- metrics -->
